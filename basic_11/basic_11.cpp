@@ -2,7 +2,7 @@
 #include<stdlib.h>
 int main(void){
 	int x,y,z,tmp;
-	printf("請輸入x,y,z");
+	printf("嚙請選蕭嚙皚x,y,z");
 	scanf("%d%d%d",&x,&y,&z);
 	int array[3]={x,y,z};
 	for(int i=0;i<2;i++)
@@ -10,11 +10,11 @@ int main(void){
 			if(array[j]>array[i]){
 				tmp=array[i];
 				array[i]=array[j];
-				array[j]=tmp;	
+				array[j]=tmp;
 			}
 		}
 	for(int i=2;i>=0;i--){
 		printf("%d",array[i]);
 		printf(" ");
 	}
-} 
+}
